@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: reinvt_diffusion2d
-Version: 0.0.2
+Version: 0.0.7
 Summary: Solves the two-dimensional diffusion equation on a square plate using an explicit finite-difference scheme.
 Author-email: Vincent Rein <st188087@stud.uni-stuttgart.de>
 License-Expression: BSD-3-Clause

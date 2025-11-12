@@ -1,2 +1,8 @@
 diffusion/
 *.png
+diffusion_test/
+LICENSE
+.gitignore
+dist/
+reinvt_diffusion2d.egg-info/
+.DS_Store

@@ -78,4 +78,5 @@ def solve(w, h, dx, dy, D, T_cold, T_hot):
     # Plot output figures
     output_plots(fig, im)
 
-solve(w, h, dx, dy, D, T_cold, T_hot)
+if __name__ == "__main__":
+    solve(w, h, dx, dy, D, T_cold, T_hot)

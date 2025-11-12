@@ -1,3 +1,18 @@
+Metadata-Version: 2.4
+Name: reinvt_diffusion2d
+Version: 0.0.2
+Summary: Solves the two-dimensional diffusion equation on a square plate using an explicit finite-difference scheme.
+Author-email: Vincent Rein <st188087@stud.uni-stuttgart.de>
+License-Expression: BSD-3-Clause
+Keywords: diffusion,pde,finite-difference,simulation
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20
+Requires-Dist: matplotlib>=3.1
+Dynamic: license-file
+
 # diffusion2d
 
 ## Description

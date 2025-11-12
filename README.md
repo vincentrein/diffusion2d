@@ -15,17 +15,32 @@ Create a virtual environment, then install the required packages:
 
 Afterwards the actual package can be downloaded via
 ```bash
-pip install diffusion2d
+pip install --index-url https://test.pypi.org/simple/ reinvt-diffusion2d
+
 ```
 
 ## Running this package
 
 To run the example and see the output figures:
 
-```bash
-python diffusion2d/diffusion2d.py
+```
+import reinvt_diffusion2d
+```
+or
+```
+from reinvt_diffusion2d import solve, output_plots, create_plots
+```
+The simulation can then be run by:
+
+```
+reinvt_diffusion2d.solve()
+```
+or if you have you have imported solve directly from reinvt_diffusion2d:
+```
+solve()
 ```
 
+Because standard values are implemented into reinvt_diffusion2d.solve(), it can easily be tested. However if you want to change the input parameters, that is also possible!
 The script produces several PNG snapshots by default. The solver function can be imported directly for programmatic use once the package is installed or the import paths are adjusted.
 
 ## Citing

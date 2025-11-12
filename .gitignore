@@ -1,8 +1,0 @@
-diffusion/
-*.png
-diffusion_test/
-LICENSE
-.gitignore
-dist/
-*.egg-info
-.DS_Store

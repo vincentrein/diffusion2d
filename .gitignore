@@ -4,5 +4,5 @@ diffusion_test/
 LICENSE
 .gitignore
 dist/
-reinvt_diffusion2d.egg-info/
+*.egg-info
 .DS_Store
